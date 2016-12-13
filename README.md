@@ -3,6 +3,8 @@ title: "wp-migration2AWS"
 output:
   html_document:
     css: css/styles.css
+  pdf_document: default
+  word_document: default
 ---
 
 This article describes: how to migrate a hosted (Host Europe via Plesk) wordpress (wp) site to Amazon Web Service (AWS).
@@ -43,8 +45,8 @@ As long as you choose the cheapest options the website should be for free, but t
 * Now open the SQL file via you favoured editor. 
     + Search for the "Database:" take, which should be at the beginning of the SQL file. 
     + Commend out: "CREATE DATABASE `dbwordpress` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci"
-    + If the "USE" tag does not exist, include it; followed by your RDS_DB_Name you have specified in your Relational Database Service (RDS).
-    <img src="./images/Screenshot.png">
+    + If the "USE" tag does not exist, include it; followed by your RDS_DB_Name you have specified in your Relational Database Service (RDS).</br>
+    <img src="./images/Screenshot.png"> </br>
     + Last but not least, replace ALL your previous IP addresses with the new URL from AWS. (One can change it back later in the wp CMS)
 * Connect with you RDS via e.g. MySQL Workbench or equivalent: </br> https://dev.mysql.com/downloads/workbench/ </br>
     + Go to: Data Import/Restore
