@@ -55,6 +55,6 @@ As long as you choose the cheapest options the website should be for free, but t
     + Press: Start Import </br>
 If everything works fine the RDS will be updated to the SQL file you have copied from you previous wp-site.
     
-## Nodes
+## Notes
 
 That's it, if everything works fine you should be able to launch your new migrated site. Probably, I got luck along the way and did not fall in all pitfalls. Anyway, that are the steps to migrate a wp-site to AWS. Hope it helps some of you. 
